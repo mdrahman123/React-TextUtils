@@ -27,8 +27,20 @@
 .App-link {
   color: #61dafb;
 }
-.king {
-  color: rgb(9, 255, 0);
+.text {
+  color: rgb(16, 14, 134);
+}
+
+.Phone {
+  color: chartreuse;
+}
+
+.About {
+  color: darkgoldenrod;
+}
+
+.Home {
+  color: rgb(8, 6, 3);
 }
 
 @keyframes App-logo-spin {
