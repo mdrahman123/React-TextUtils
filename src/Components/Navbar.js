@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+//import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   //   let style = {
@@ -32,7 +33,7 @@ export default function Navbar(props) {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/convert"
+                  to="/about"
                 >
                   Home
                 </Link>
@@ -42,7 +43,7 @@ export default function Navbar(props) {
                   Link
                 </a>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 Brand
                 <a
                   className="nav-link dropdown-toggle"
@@ -73,7 +74,7 @@ export default function Navbar(props) {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">
                   Disabled
@@ -83,7 +84,7 @@ export default function Navbar(props) {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="about"
+                  to="/convert"
                 >
                   About
                 </Link>

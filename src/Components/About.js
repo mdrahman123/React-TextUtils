@@ -183,12 +183,12 @@ export default function About(props) {
         </div>
       </div>
       <div className="container  my-3">
-        <button className="btn btn-primary" onClick={enablingDarkMode}>
+        {/* <button className="btn btn-primary" onClick={enablingDarkMode}>
           enableDarkMode
         </button>
         <button className="btn btn-primary mx-5" onClick={disablingDarkMode}>
           DisableDarkMode
-        </button>
+        </button> */}
       </div>
     </>
   );
